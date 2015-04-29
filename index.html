@@ -20,7 +20,7 @@ $(document).ready(function inicio(){
   var dir=$("#di").val();
     $.ajax({
     type:"POST",
-    url:"guardarDatos.php",
+    url:"http://mobileapp.260mb.net/guardarDatos.php",
     data:"nombre="+nom+"&apellido_p="+app+"&apellido_m="+apm+"&direccion="+dir,//+"&telefono="+tel,
     success: registro
     });
